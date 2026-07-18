@@ -12,10 +12,3 @@ likeBtn.addEventListener("click", () => {
   localStorage.setItem("totalLikes", likes); // Save to local storage
   likeCount.textContent = likes;
 });
-
-// function resetCounter() {
-// //     // 1. Find the element tracking the number
-// const counterDisplay = document.getElementById("display-number");
-
-// //     // 2. Clear its value back to 0
-// counterDisplay.textContent = "0";
