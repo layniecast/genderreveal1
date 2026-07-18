@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharon and Luis's Gender Reveal!</title>
+    <link rel="stylesheet" type="text/css" href="indexstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="center-main">
+      <div class="main">
+        <p>
+          <i>Sharon and Luis are having a gender reveal and you are invited!</i>
+        </p>
+      </div>
+
+      <div class="center-a">
+        <img
+          src="images/IMG_0033.jpg"
+          alt="Teddy gender reveal picnic"
+          width="1700"
+          height="600"
+        />
+      </div>
+
+      <div class="wrap">
+        <div class="item1">
+          <p>Saturday, August 8th</p>
+        </div>
+        <div class="item2">
+          <p>
+            Goffle Brook Park <br />
+            <i>(Lafayette Picnic Area) </i><br />
+            Hawthorne, NJ
+          </p>
+        </div>
+        <div class="item3">
+          <p>2:30pm to 7pm</p>
+        </div>
+      </div>
+    </div>
+
+    <hr class="green-line" />
+
+    <div class="main2">
+      <form name="contact" method="POST" netlify>
+        <p>We are really looking forward to this. Please join us!</p>
+        <p>
+          <label>Name: <input type="text" name="name" required /></label>
+        </p>
+        <p>
+          <label>e-Mail: <input type="email" name="email1" required /></label>
+        </p>
+        <p>Are you coming?</p>
+        <input type="radio" id="yes" name="yes-no" value="yes" />  
+        <label for="yes-no">Yes</label>
+        <input type="radio" id="no" name="yes-no" value="no" />
+        <label for="yes-no">No</label>
+        <p>
+          <label
+            >Message:
+            <textarea
+              name="message"
+              rows="3"
+              cols="21"
+              placeholder="Write a kind message to the parents to be!"
+            ></textarea>
+          </label>
+        </p>
+        <p>
+          <button type="submit" class="btn btn-outline-warning">Submit</button>
+        </p>
+      </form>
+      <div class="item4">
+        <p>
+          Please bring along a box of wipes or diapers! <br />Adults wear white!
+        </p>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="item4">
+        <p class="last-para">
+          Copyright © 2026 | Made by
+          <a href="https://laynieportfolio.netlify.app">Laynie </a>
+        </p>
+      </div>
+
+      <div class="item5">
+        <button id="likeBtn">💚 Like</button> <br />
+        <span id="likeCount">0</span> <br />for Baby Castillo-Rosario!<br />
+        <!-- <button onclick="resetCounter()">Reset to Zero</button> -->
+      </div>
+
+      <div class="item6">
+        <a href="http://www.linkedin.com/in/elayne-castillo-m-s-675283219">
+          <i class="fa fa-linkedin-square" style="font-size: 36px"></i
+        ></a>
+        <a href="http://www.instagram.com/laynieveestudio">
+          <i class="fa fa-instagram" style="font-size: 36px"></i>
+        </a>
+        <a href="https://github.com/layniecast">
+          <i class="fa fa-github-square" style="font-size: 36px"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="scriptButton.js"></script>
+  </body>
+</html>
